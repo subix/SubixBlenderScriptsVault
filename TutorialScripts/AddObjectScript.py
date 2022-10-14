@@ -70,6 +70,8 @@ class PanelB(bpy.types.Panel):
         row = layout.row()
         row.operator("object.shade_smooth", icon = 'MOD_SMOOTH', text = "Set Smooth Shading")
         row = layout.row()
+        row.operator("object.shade_flat", icon = 'MOD_SIMPLIFY', text = "Set Flat Shading")
+        row = layout.row()
         row.operator("object.subdivision_set")
         row = layout.row()
         row.operator("object.modifier_add")
